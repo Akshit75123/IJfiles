@@ -1,0 +1,55 @@
+Integer.toString()
+Character.toString()
+String.valueOf(#character)
+Integer.parseString();
+Arrays.fill(array,value)
+Arrays.equal(array1,array2)
+char ch=string.charAt(index)
+
+
+str.toLowerCase()
+str.toUpperCase()
+
+split functions -->
+String str="Java,Python,Ruby";
+String[] arr=str.split(",")
+arr[0]=Java
+arr[1]=Python
+arr[2]=Ruby
+
+In order to take inputs in a loop End of line after integer input must be handled.
+sc.nextLine(); // end of line after every nextInt or nextFloat or nextDouble
+
+Finding Index of a String Array Element -->
+Syntax --> Arrays.asList(<name_of_the_StringArray>).indexOf(<String in double qoutes>)
+For Example-->
+temp=Arrays.asList(chr).indexOf("A");
+#Thanks stack overflow
+
+Converting ascii value to the corresponding integer..
+Character.toString((char    ) i)
+
+Deletion of element from an array
+int j = 1; //index of the element to be deleted
+for (int i = 0, k = 0; i < arr.lenght ; i++){
+    if (i !=j){
+        newArray[k] = arr[i]
+        k ++;
+    }
+}
+
+To find the maximum element from the array in java
+int max = Arrays.stream(prod).max().getAsInt();
+
+Array to ArrayList (finding max element from an array)
+List <Integer> list = new ArrayList<Integer>();
+                for (int i = 0; i < n-count; i++) {
+                    list.add(prod[i]);
+                }
+                System.out.println(Collections.max(list));
+
+String to character Array
+char arrayname=inputString.toCharArray();
+
+JAVA char TO int
+
